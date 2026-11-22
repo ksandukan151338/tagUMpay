@@ -74,7 +74,10 @@ namespace tagUMpay
                     }
 
                     // Update employee information
-                    emp.FullName = updatedEmployee.FullName;
+                    emp.FirstName = updatedEmployee.FirstName;
+                    emp.MiddleName = updatedEmployee.MiddleName;
+                    emp.LastName = updatedEmployee.LastName;
+                    emp.NameExtension = updatedEmployee.NameExtension;
                     emp.PositionId = updatedEmployee.PositionId;
                     emp.ContactInfo = updatedEmployee.ContactInfo;
                     emp.EmploymentStatus = updatedEmployee.EmploymentStatus;
