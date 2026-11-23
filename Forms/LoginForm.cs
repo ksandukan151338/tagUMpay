@@ -133,7 +133,10 @@ namespace tagUMpay
                 emp.EmployeeId = 101;
                 emp.Username = "jdelacruz";
                 emp.PasswordHash = "emp123";
-                emp.FullName = "Juan Dela Cruz";
+                emp.FirstName = "Juan";
+                emp.MiddleName = "Dela";
+                emp.LastName = "Cruz";
+                emp.NameExtension = "";
                 emp.PositionId = 1;
                 emp.ContactInfo = "0917-555-0101";
                 emp.EmploymentStatus = "Regular";
