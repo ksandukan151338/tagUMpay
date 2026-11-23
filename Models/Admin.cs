@@ -14,7 +14,10 @@ namespace tagUMpay
 
         public void addEmployee()
         {
-            MessageBox.Show("Add Employee module opened.", "Admin Action");
+            using (AddEmployeeForm addForm = new AddEmployeeForm())
+            {
+                addForm.ShowDialog();
+            }
         }
 
         public void updateEmployee()
