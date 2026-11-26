@@ -480,3 +480,9 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+/Forms/EmployeeDashboardForm.resx
+/Forms/LoginForm.resx
+/.gitignore
+/.gitignore
+/.gitignore
+/.gitignore
