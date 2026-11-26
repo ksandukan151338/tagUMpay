@@ -86,12 +86,20 @@ namespace tagUMpay
 
         public void viewAttendance()
         {
-            MessageBox.Show("Displaying personal attendance summary for " + FullName + ".", "Employee Self-Service");
+            using (AttendanceRecordsForm attendanceForm = new AttendanceRecordsForm(false))
+            {
+                attendanceForm.Text = "tagUMpay - My Attendance (" + FullName + ")";
+                attendanceForm.ShowDialog();
+            }
         }
 
         public void viewPayroll()
         {
-            MessageBox.Show("Displaying historical payroll records for " + FullName + ".", "Employee Self-Service");
+            using (PayrollRecordsForm payrollForm = new PayrollRecordsForm(false))
+            {
+                payrollForm.Text = "tagUMpay - My Payroll (" + FullName + ")";
+                payrollForm.ShowDialog();
+            }
         }
 
         public override void getDashboardOptions()
