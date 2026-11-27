@@ -22,12 +22,18 @@ namespace tagUMpay
 
         public void updateEmployee()
         {
-            MessageBox.Show("Update Employee module opened.", "Admin Action");
+            using (UpdateEmployeeForm updateForm = new UpdateEmployeeForm())
+            {
+                updateForm.ShowDialog();
+            }
         }
 
         public void deleteEmployee()
         {
-            MessageBox.Show("Delete Employee module opened.", "Admin Action");
+            using (DeleteEmployeeForm deleteForm = new DeleteEmployeeForm())
+            {
+                deleteForm.ShowDialog();
+            }
         }
 
         public void recordAttendance()

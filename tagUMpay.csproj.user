@@ -7,6 +7,12 @@
     <Compile Update="Forms\AdminDashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\AttendanceRecordsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DeleteEmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\EmployeeDashboardForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -14,6 +20,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PayrollRecordsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\UpdateEmployeeForm.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
