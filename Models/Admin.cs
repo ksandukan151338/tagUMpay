@@ -38,12 +38,18 @@ namespace tagUMpay
 
         public void recordAttendance()
         {
-            MessageBox.Show("Record Attendance module opened.", "Admin Action");
+            using (AttendanceRecordsForm attendanceForm = new AttendanceRecordsForm(true))
+            {
+                attendanceForm.ShowDialog();
+            }
         }
 
         public void preparePayroll()
         {
-            MessageBox.Show("Prepare Payroll module opened.", "Admin Action");
+            using (PayrollRecordsForm payrollForm = new PayrollRecordsForm(true))
+            {
+                payrollForm.ShowDialog();
+            }
         }
 
         public override void getDashboardOptions()
